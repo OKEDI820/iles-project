@@ -60,7 +60,7 @@ export default function LoginForm() {
   return (
     <form className="card login-card" onSubmit={handleSubmit}>
       <h2>Sign in</h2>
-      <p className="muted">Use one of the seeded accounts to test the system fast.</p>
+      <p className="muted">Use one of the trial  accounts to test the system fast.</p>
 
       <InputField
         label="Email"
