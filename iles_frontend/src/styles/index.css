@@ -26,7 +26,7 @@ textarea { min-height: 100px; }
 .stats-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 16px; }
 .muted { color: #6b7280; }
 .badge { padding: 4px 10px; border-radius: 999px; font-size: 12px; text-transform: capitalize; }
-.badge-default { background: #e5e7eb; }
+.badge-default { background: #e5e8eb; }
 .badge-warning { background: #fef3c7; }
 .badge-info { background: #dbeafe; }
 .badge-success { background: #dcfce7; }
