@@ -6,7 +6,7 @@ class IsCoordinator(BasePermission):
         return bool(request.user and request.user.is_authenticated and request.user.role == ROLE_COORDINATOR)
 
 class IsSupervisor(BasePermission):
-    def has_permission(self, request, view):
+    def has_permission(self, request):
         return bool(request.user and request.user.is_authenticated and request.user.role == ROLE_SUPERVISOR)
 
 class IsStudent(BasePermission):
