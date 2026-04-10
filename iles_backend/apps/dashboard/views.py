@@ -30,4 +30,4 @@ class DashboardSummaryView(APIView):
             'total_evaluations': evaluations.count(),
             'average_score': float(evaluations.aggregate(avg=Avg('total_score')).get('avg') or 0),
         }
-        return Response(data)
+       
